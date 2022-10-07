@@ -1,4 +1,5 @@
 mod error;
+mod macros;
 use pyo3::exceptions::PyValueError;
 use pyo3::panic::PanicException;
 use pyo3::prelude::*;
