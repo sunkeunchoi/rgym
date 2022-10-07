@@ -14,3 +14,14 @@ classifiers = [
 
 [tool.maturin]
 python-source = "python"
+profile ="release"
+
+[tool.poetry]
+name = "traiding_gym"
+version = "0.1.0"
+description = ""
+authors = ["Sun Keun Choi <sunkeun.choi@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+maturin = "^0.13.3"
